@@ -1,4 +1,4 @@
-// // const instagram = new Object();// this is a singleton object
+// // const instagram = new Object();// this is a singleton object means only one instance of an object or class is created and shared
 const instagram = {};
 
 instagram.id = "123abcd";
