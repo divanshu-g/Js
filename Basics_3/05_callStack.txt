@@ -1,0 +1,34 @@
+-----Js Execution Context
+1. this variable will get Global EC
+IN ANY BROWSER JS EC VALUE IS WINDOWS
+2.js is single threaded 
+
+-----types of EC
+1. Global 
+2. Functional
+3. Eval
+
+
+-----how js code executes    
+1. Memory creation phase -> only space is allocated to variables and stuff
+2. Execution phase -> where code runs
+
+
+-----Example code 
+
+let num1 = 10;
+let num2 = 20;
+function addNum(num1, num2){
+    let total = num1 + num2;
+    return total;
+}
+
+let result1 = addNum(num1, num2);
+let result2 = addNum(10, 5);
+
+
+                            1. this -> Global EC
+                            2. Memory Phase ~ Everything is undefined 
+                            3. Execution Phase -> for func, 2 and 3 step will be repeated(for addNum)[new variable environment + Execution thread] 
+                            NOTE-> after completion new var and thread gets flushed out
+                            4. total will be returned to Global EC
