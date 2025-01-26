@@ -1,1 +1,0 @@
-# EVENT LOOP DIAGRAM [CLICK HERE](https://excalidraw.com/#json=MHy8JbxPBrkfWbAiH2kan,3gQFxq9WRv0SayHckutF-g)

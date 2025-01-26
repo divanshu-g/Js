@@ -12,7 +12,7 @@
 /****************Topics to study****************************** */
 
 // type, timestamp, defaultPrevented
-// target, toElemnt, sourceElement, currentTarget
+// target, toElement, sourceElement, currentTarget
 // clinetX, clientY, screenX, screenY
 // altkey, ctrlkey, shiftkey, keyCode
 
@@ -27,13 +27,13 @@
 //     // event.stopPropagation();
 // }, false);
 
-// if false and false then event bubbling
+// if false and false its event bubbling
 // if true and true thats event Capturing
 
 /*******************How to prevent propogation****************************/
 
 document.getElementById('google').addEventListener('click', (event)=>{
-    event.preventDefault();
+    event.preventDefault(); 
     console.log('YOU CLICKED ON GOOGLE!!!!!!!!');
 }, false)
 
