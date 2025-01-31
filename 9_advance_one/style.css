@@ -1,0 +1,13 @@
+.photo{
+    background-color: gray;
+    margin: 10% 6% 6% 6%;
+    padding:8% 9% 8% 9%;
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+
+}
