@@ -14,6 +14,4 @@ document.querySelector(".button").addEventListener("click",()=>{
         }
     }
     xhr.send();
-
-
 }, false);
