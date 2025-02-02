@@ -18,6 +18,6 @@ Object Literal
 
 ## 4 pillars
 Abstraction
-Inheritance
+Inheritance ~ prototypal and class-based inheritance
 Encapsulation
 Polymorphism
