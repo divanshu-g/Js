@@ -31,7 +31,7 @@ User.prototype.ChangeUsername = function(){
     return `${this.username.toUpperCase()}`
 }
 
-const random = new User("Sood", "Sood@neilson.com", "3457");
+const random = new User("div", "div@neilson.com", "3457");
 
 console.log(random.encryptPassword());
 console.log(random.ChangeUsername());
